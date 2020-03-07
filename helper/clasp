@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -it --rm -v "$PWD":/work/app -v ~/.clasprc.json:/root/.clasprc.json fletort/clasp $@

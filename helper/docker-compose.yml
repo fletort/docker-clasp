@@ -1,0 +1,7 @@
+version: "2"
+services:
+  clasp:
+    image: "fletort/clasp"
+    volumes:
+      - $PWD:/work/app
+      - ~/.clasprc.json:/root/.clasprc.json
